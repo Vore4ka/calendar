@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalendarActivity"
+    android:background="@color/pink">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="58sp"
+        android:text="Календарь"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="36sp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/daysBtns"
+        android:layout_width="411dp"
+        android:layout_height="558dp"
+        android:layout_marginTop="5dp"
+        android:columnCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="2"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="3"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="4"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="5"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="6"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="8"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="9"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="10"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="11"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="12"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="13"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="14"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="15"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="16"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="17"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="18"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="19"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="20"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="21"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="22"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="23"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="24"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="25"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="26"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="27"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="28"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="29"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/yellow"
+            android:onClick="toDay"
+            android:text="30"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="70"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/red"
+            android:onClick="toDay"
+            android:text="31"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/now"
+        android:layout_width="match_parent"
+        android:layout_height="58sp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="36sp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daysBtns"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
